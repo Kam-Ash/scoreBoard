@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background:   #1B244A;
+    width: 575px;
+    height: 385px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+h3{
+    font-family: "Verdana",sans-serif;
+    font-size: 2.5rem;
+    color:  #EEEEEE;
+}
+.scoreboard-home,.scoreboard-guest{
+    width: 8.75em;
+    margin: 1.25em auto;
+    background-color: rgba(8,0,1,1);
+}
+h2{
+    font-family: "Cursed Timer ULiL",sans-serif;
+    font-size: 5.625rem;
+    text-align: center;
+    color: rgba(249,79,109,1);
+    padding-top: 0.18em;
+}
+.buttons{
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.plusone-btn,
+.plustwo-btn,
+.plusthree-btn,
+.reset-btn{
+    border: 0px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-size: 1rem;
+     font-family: "Cursed Timer ULiL",sans-serif;
+}
